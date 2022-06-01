@@ -30,7 +30,7 @@
 
 .oragne-btn {
     border: 1px solid #ec6504;
-    transition: 0.3s;
+    transition: ease-out 0.5s;
     padding: 7px var(--m-20);
     border-radius: 17px;
     color: #fff;
