@@ -9,39 +9,39 @@
     </head>
     <body>
         <!-- Nav & hero -->
-        <header class="nav-container" id="main">
+        <header class="navbar__container" id="main">
             <section class="container">
-                <nav class="nav flex-center">
-                    <div class="logo">
+                <nav class="navbar flex-center">
+                    <div class="navbar__logo">
                         <a href="./index.html">
                             Wajd
                             <span>.</span>
                         </a>
                     </div>
 
-                    <ul class="links flex-center">
-                        <li>
-                            <a href="#Home">Home</a>
+                    <ul class="navbar__links flex-center">
+                        <li class="navbar__li">
+                            <a class="navbar__a" href="#Home">Home</a>
                         </li>
-                        <li>
-                            <a href="#Services">Services</a>
+                        <li class="navbar__li">
+                            <a class="navbar__a" href="#Services">Services</a>
                         </li>
-                        <li>
-                            <a href="#Quote">Quote</a>
+                        <li class="navbar__li">
+                            <a class="navbar__a" href="#Quote">Quote</a>
                         </li>
-                        <li>
+                        <li class="navbar__li">
                             <a href="#Contact" class="oragne-btn">Join Us</a>
                         </li>
                     </ul>
                 </nav>
 
                 <section class="hero flex-center" id="Home">
-                    <article class="hero-content">
-                        <h1>This website is awesome</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam quas eos fugit aliquam distinctio delectus est labore, eaque corporis rerum.</p>
+                    <article class="hero__content">
+                        <h1 class="hero__content-title">This website is awesome</h1>
+                        <p class="hero__content-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam quas eos fugit aliquam distinctio delectus est labore, eaque corporis rerum.</p>
                         <button class="btn">Sign Up</button>
                     </article>
-                    <article class="image">
+                    <article class="hero__image">
                         <img src="./assets/images/girl-mobile.svg" alt="svg image of a girl holding a phone showing a code">
                     </article>
                 </section>
@@ -55,33 +55,33 @@
                     <h2>Our Services</h2>
                 </header>
                 <section class="flex-center servies-boxes">
-                    <div class="box flex-center">
+                    <div class="servies-box flex-center">
                         <img src="./assets/images/magnifying-glass.jpg" alt="magnifying glass">
-                        <div class="box-content flex-center">
+                        <div class="servies-box-content flex-center">
                             <h4>New Ideas</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cum optio rerum.</p>
                         </div>
                     </div>
 
-                    <div class="box flex-center">
+                    <div class="servies-box flex-center">
                         <img src="./assets/images/jellyfish.jpg" alt="Blue Jellyfish">
-                        <div class="box-content flex-center">
+                        <div class="servies-box-content flex-center">
                             <h4>Creative</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cum optio rerum.</p>
                         </div>
                     </div>
 
-                    <div class="box flex-center">
+                    <div class="servies-box flex-center">
                         <img src="./assets/images/black-car.jpg" alt="Black Car">
-                        <div class="box-content flex-center">
+                        <div class="servies-box-content flex-center">
                             <h4>High Quality</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cum optio rerum.</p>
                         </div>
                     </div>
 
-                    <div class="box flex-center">
+                    <div class="servies-box flex-center">
                         <img src="./assets/images/pink-flowers.jpg" alt="Pink flowers">
-                        <div class="box-content flex-center">
+                        <div class="servies-box-content flex-center">
                             <h4>Photography</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cum optio rerum.</p>
                         </div>
@@ -93,10 +93,10 @@
             <section class="qoute space" id="Quote">
                 <div class="container">
                     <figure>
-                        <blockquote>
-                            <p>First, solve the problem. Then, write the code.</p>
+                        <blockquote class="qoute__blcokqoute">
+                            <p class="qoute__blcokqoute-p">First, solve the problem. Then, write the code.</p>
                         </blockquote>
-                        <figcaption>-John Johnson</figcaption>
+                        <figcaption class="qoute__figcaption">-John Johnson</figcaption>
                     </figure>
                 </div>
             </section>
@@ -104,10 +104,10 @@
             <!-- contact -->
             <section class="container" id="Contact">
                 <div class="contact space">
-                    <article class="flex-center">
-                        <div class="contact-content">
-                            <h2>Call to action! It's time!</h2>
-                            <p>Sign up for our product by clicking that button right over there!</p>
+                    <article class="contact__container flex-center">
+                        <div class="contact__content">
+                            <h2 class="contact__content-title">Call to action! It's time!</h2>
+                            <p class="contact__content-p">Sign up for our product by clicking that button right over there!</p>
                         </div>
                         <div class="container-button">
                             <button class="btn btn-outline">Sign up</button>
@@ -117,12 +117,12 @@
             </section>
         </main>
 
-        <div class="top-btn flex-center">
-            <a class="top oragne-btn" href="#main">Top</a>
+        <div class="top_btn-container flex-center">
+            <a class="top_btn oragne-btn" href="#main">Top</a>
         </div>
 
-        <footer>
-            <div class="container footer-div flex-center">
+        <footer class="footer">
+            <div class="container footer__container flex-center">
                 <p>© 2022 All rights reserved.</p>
             </div>
         </footer>
