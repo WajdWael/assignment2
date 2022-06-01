@@ -1,0 +1,19 @@
+Plate:
+
+--dark-bc: #1F2937;
+--header: #F9FAF8; #48px
+--extra-bold: extra-bold;
+--hero-secondary: #E5E7EB; #18px
+--logo: #F9FAF8; #24px
+--button-bc: #3882F6;
+--header: #1F2937; #36px extra-bold
+--quote-bc: #E5E7EB;
+--quote-text: #1F2937; #36px - light italic.
+
+
+------
+Utilities:
+
+container class
+FlexBox
+@media query

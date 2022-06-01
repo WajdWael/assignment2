@@ -1,0 +1,275 @@
+@import url('./base.css');
+
+
+/* ===== NavBar ===== */
+.nav-container{
+    background-color: var(--dark-bc);
+}
+
+.nav{
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.logo a{
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--logo);
+    font-size: 24px;
+    position: relative;
+    top: -7px;
+    left: 7px;
+}
+
+.logo span{
+    color: #ec6504;
+    font-family: fantasy;
+    font-size: 37px;
+}
+
+.nav .oragne-btn {
+    border: 1px solid #ec6504;
+    padding: 7px var(--m-20);
+    border-radius: 17px;
+    color: #fff;
+    background: #ec6504;
+    box-shadow: inset 0 0 0 0 var(--button-bc);
+}
+
+.nav .oragne-btn:hover{
+    box-shadow: inset 100px 0 0 0 var(--button-bc);
+    border: 1px solid var(--button-bc);
+}
+
+.nav a{
+    position: relative;
+    margin-right: var(--m-20);
+    color: var(--hero-secondary);
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.nav a:hover{
+    color: #FFF;
+}
+
+.burger-icon{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+}
+
+.burger-icon .line{
+    width: 35px;
+    height: 3px;
+    background: #fff;
+    margin-bottom: 5px;
+}
+
+/* ===== Hero ===== */
+
+.hero{
+    padding-bottom: 4rem;
+    color: var(--hero-secondary);
+    gap: 5rem;
+}
+
+.hero-content{
+    width: 60%;
+}
+
+.hero-content h1{
+    margin-bottom: var(--m-20);
+    color: var(--header);
+    font-size: 48px;
+    letter-spacing: 1.4px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.hero-content p{
+    font-weight: 300;
+    margin-top: var(--m-10);
+}
+
+.btn{
+    margin: 1rem 0;
+    padding: var(--m-10) 35px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    background: var(--button-bc);
+    font-size: 1rem;
+    box-shadow: inset 0 0 0 0 #ec6504;
+    transition: ease-out 0.5s;
+}
+
+.btn:hover{
+    box-shadow: inset 128px 0 0 0 #ec6504;
+}
+
+.hero img{
+    max-width: 400px;
+}
+
+/* ===== Servies ===== */
+.servies-boxes {
+    gap: 1.5rem;
+}
+
+.box-content{
+    flex-direction: column;
+    padding: var(--m-20) 1rem;
+}
+
+.main-title{
+    background-color: #fff;
+}
+
+.main-title h2{
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 66px;
+    text-align: center;
+    color: var(--header-dark);
+    text-transform: uppercase;
+}
+
+.main-title h2::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    background-color: #333;
+    bottom: -15px;
+    width: 120px;
+}
+
+.main-title h2::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    bottom: -23px;
+    background-color: white;
+}
+
+.box{
+    cursor: pointer;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    flex-direction: column;
+    border-radius: 19px;
+    transition: 0.5s;
+}
+
+.box:hover{
+    transform: scale(0.9);
+}
+
+.box img{
+    object-fit: cover;
+    height: 200px;
+    border-start-start-radius: 14px;
+    border-start-end-radius: 14px;
+}
+
+.box h4{
+    padding-top: var(--m-10);
+    text-transform: capitalize;
+}
+
+.box p{
+    text-align: center;
+    font-size: 13px;
+    color: #777;
+    padding-top: 4px;
+}
+
+
+/* ===== Qoute ===== */
+.qoute{
+    background: var(--quote-bc);
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: var(--m-20);
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+figcaption{
+    display: flex;
+    justify-content: end;
+    width: 90%;
+    font-weight: 900;
+}
+
+/* ===== Contact ===== */
+.contact{
+    padding: 7rem;
+}
+
+.contact article{
+    justify-content: space-between;
+    background: var(--button-bc);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: rgb(9 30 66 / 13%) 0px 0px 1px 1px;
+}
+
+.contact-content{
+    color: var(--header);
+    font-weight: 900;
+}
+
+.contact-content h2{
+    color: var(--header);
+    font-weight: 900;
+    margin-bottom: var(--m-10);
+}
+
+.contact-content p{
+    color: var(--quote-bc);
+}
+
+.btn-outline{
+    border: 1px solid #fff;
+    padding: 8px 30px;
+}
+
+.btn-outline:hover{
+    border: 1px solid transparent;
+}
+
+/* ===== Footer ===== */
+footer{
+    background: var(--dark-bc);
+    color: var(--header);
+}
+
+footer .footer-div{
+    padding: 3rem;
+}

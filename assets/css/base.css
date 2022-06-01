@@ -1,0 +1,109 @@
+/* ==== Fonts ==== */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Black.ttf');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+
+/* ==== Normalize ==== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ===== Variables ===== */
+
+:root{
+    /* ===== Colors ===== */
+    --dark-bc: #1F2937;
+    --header: #F9FAF8;
+    --hero-secondary: #E5E7EB;
+    --logo: #F9FAF8;
+    --button-bc: #3882F6;
+    --header-dark: #1F2937; 
+    --quote-bc: #E5E7EB;
+    --quote-text: #1F2937;
+
+    /* ===== Font-sizes ===== */
+    --hero: 3rem; /*48px*/
+    --text: 2.25rem; /*36px*/
+
+    /* ===== Margins ===== */
+    --m-20: 1.25rem; /*20px*/
+    --m-10: 0.625rem; /*10px*/
+}
+
+
+/* ===== Main classes ===== */
+.container{
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space{
+    padding: 7rem 0;
+}
